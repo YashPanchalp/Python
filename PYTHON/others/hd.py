@@ -1,0 +1,42 @@
+import turtle
+
+s = turtle.Screen().bgcolor("White")
+t = turtle.Turtle()
+t.speed(3)
+t.width(12)
+turtle.title("WELL PLAYED TEAM INDIA \n WE WILL ALWAYS SUPPORT YOU A ONE TROPHY CANNOT DEFINE YOUR HARDWORK")
+
+def curve():
+    for i in range (200):
+        t.right(1)
+        t.forward(1)
+
+def heart():
+    t.color("red","red")
+    t.begin_fill()
+    t.left(140)
+    t.forward(113)
+    curve()
+    t.left(120)
+    curve()
+    t.forward(112)
+    t.end_fill()
+
+heart()
+t.pencolor("white")
+t.penup()
+t.goto(0,170)
+t.pendown()
+
+for broken in range (3):
+    t.left(75)
+    t.forward(40)
+    t.right(65)
+    t.forward(45)
+
+turtle.done()
+
+
+t.hideturtle()
+turtle.done()
+
