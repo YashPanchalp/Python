@@ -1,16 +1,22 @@
 wtp=input("Enter What to Print in pyramid :")
 n=int(input("Enter value of n :"))
 t=int(n/2)
+
 front_triangle_rows=int(input("Enter Number of rows in front triangle:"))
 fto=input("Enter what to print in front triangle :")
+
 space_front_triangle_rows=int(input("Enter Number of rows in space front triangle:"))
 sfto=input("Enter what to print in space front triangle :")
+
 back_triangle_rows=int(input("Enter Number of rows in back triangle:"))
 bto=input("Enter what to print in back triangle:")
+
 space_back_triangle_rows=int(input("Enter Number of rows in space back triangle:"))
 sbto=input("Enter what to print inspace back triangle:")
+
 space_pyramid_rows=int(input("Enter Number of rows Pyramid:"))
 spo=input("Enter what to print in Space Pyramid :")
+
 n=int(input("Enter value Total Number of lines in Diamond Pyramid:"))
 wtp=input("Enter What to Print in Diamond Pyramid :")
 
