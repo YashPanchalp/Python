@@ -1,4 +1,4 @@
-# Function to convert octal to decimal (manual conversion)
+
 def octal_to_decimal(octal):
     decimal = 0
     power = 0
@@ -8,8 +8,7 @@ def octal_to_decimal(octal):
         octal //= 10
         power += 1
     return decimal
-
-# Function to convert decimal to hexadecimal (manual conversion)
+    
 def decimal_to_hexadecimal(decimal):
     if decimal == 0:
         return "0"
@@ -24,12 +23,12 @@ def decimal_to_hexadecimal(decimal):
     
     return hexadecimal
 
-# Function to convert octal to hexadecimal using radix
+
 def octal_to_hexadecimal(octal):
-    # Step 1: Convert octal to decimal
+    # octal to decimal
     decimal = octal_to_decimal(octal)
     
-    # Step 2: Convert decimal to hexadecimal
+    # decimal to hexadecimal
     hexadecimal = decimal_to_hexadecimal(decimal)
     
     return hexadecimal
